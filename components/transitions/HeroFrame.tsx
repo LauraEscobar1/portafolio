@@ -91,7 +91,7 @@ export default function HeroFrame({ children }: { children: ReactNode }) {
   );
 
   return (
-    <div ref={ref} className={`hf ${on ? "" : "hf--off"}`}>
+    <div ref={ref} id="inicio" className={`hf ${on ? "" : "hf--off"}`}>
       <div className="hf-sticky" ref={stage}>
         {on && <BinaryRain level={rain} className="hf-rain" />}
         <div className="hf-frame" ref={frame}>

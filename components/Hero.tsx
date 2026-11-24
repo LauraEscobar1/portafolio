@@ -60,7 +60,6 @@ export default function Hero({ ready }: { ready: boolean }) {
 
   return (
     <section
-      id="inicio"
       ref={ref}
       className={`hero hero--paper ${ready ? "is-ready" : ""}`}
       onPointerMove={onMove}
